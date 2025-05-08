@@ -4,7 +4,7 @@ An Arduino-compatible library for interfacing with the **Micro Crystal RV-8803-C
 
 ## 🚀 Key Features
 
-- Simple read/write using Unix Epoch (`time_t`)
+- Simple read/write using [Unix Epoch](https://www.epochconverter.com/) (`time_t`)
 - Compatible with ESP32 and other Arduino-compatible boards
 - Uses standard I²C communication via `Wire` or `Wire1`
 - No internal `Wire.begin()` — user initializes I²C externally
