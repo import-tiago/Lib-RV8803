@@ -3,6 +3,10 @@
 
 An Arduino-compatible library for interfacing with the **Micro Crystal RV-8803-C7** I²C real-time clock (RTC), supporting easy **epoch-based time read/write**.
 
+<p align="center">
+  <img src="assets/part.png" alt="Part Image" width="300">
+</p>
+
 ## Key Features
 
 - Simple read/write using [Unix Epoch](https://www.epochconverter.com/) (`time_t`)
