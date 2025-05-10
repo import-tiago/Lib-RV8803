@@ -1,8 +1,9 @@
+
 # RV-8803-C7 Real-Time Clock Library (ESP32 + Arduino)
 
 An Arduino-compatible library for interfacing with the **Micro Crystal RV-8803-C7** I²C real-time clock (RTC), supporting easy **epoch-based time read/write**.
 
-## 🚀 Key Features
+## Key Features
 
 - Simple read/write using [Unix Epoch](https://www.epochconverter.com/) (`time_t`)
 - Compatible with ESP32 and other Arduino-compatible boards
@@ -12,7 +13,7 @@ An Arduino-compatible library for interfacing with the **Micro Crystal RV-8803-C
 
 ---
 
-## 🧰 Basic Usage
+## Basic Usage
 
 ```cpp
 RV8803 rtc;
@@ -50,30 +51,30 @@ void loop() {
 }
 ```
 
-
-> 🧠 This library simplifies working with the RV-8803 by abstracting I²C register handling into clean epoch-based functions.
+This library simplifies working with the RV-8803 by abstracting I²C register handling into clean epoch-based functions.
 
 ---
 
-## 🔌 Basic Circuit
+## Basic Circuit
 
 ![RV8803 Basic Circuit](assets/circuit.png)
 
 ---
 
-## 🖥️ Serial Terminal Output
+## Serial Terminal Output
 
 ![RV8803 Serial Output](assets/terminal.png)
 
 ---
 
-## 📎 Documentation & Reference
+## Documentation & Reference
 
-- 📄 [RV-8803-C7 Datasheet (PDF)](assets/RV-8803-C7.pdf)
-- 🔋 [CR1225 Coin Cell Specs (PDF)](assets/CR1225.pdf)
+- [RV-8803-C7 Datasheet (PDF)](assets/RV-8803-C7.pdf)
+- [CR1225 Coin Cell Specs (PDF)](assets/CR1225.pdf)
 
 ---
-### 📍 I²C Slave Address 
+
+### I²C Slave Address 
 
 ![RV8803 I2C Address](assets/addr.png)
 
@@ -81,12 +82,12 @@ void loop() {
 
 ---
 
-## ✅ Compatibility
+## Compatibility
 
 This library was tested with:
 
 - **ESP32 Arduino Core v3.2.0**  
   Based on **ESP-IDF v5.4.1**  
-  🔗 [GitHub Release: espressif/arduino-esp32 v3.2.0](https://github.com/espressif/arduino-esp32/releases/tag/3.2.0)
+  [GitHub Release: espressif/arduino-esp32 v3.2.0](https://github.com/espressif/arduino-esp32/releases/tag/3.2.0)
 
-> For best results, use this or a later version of the Arduino-ESP32 core.
+For best results, use this or a later version of the Arduino-ESP32 core.
