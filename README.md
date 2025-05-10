@@ -61,7 +61,7 @@ This library simplifies working with the RV-8803 by abstracting I²C register ha
 
 ---
 
-## Serial Terminal Output
+## Serial Output
 
 ![RV8803 Serial Output](assets/terminal.png)
 
